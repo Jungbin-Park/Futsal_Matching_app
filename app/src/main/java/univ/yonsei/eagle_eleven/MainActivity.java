@@ -58,7 +58,7 @@ import java.util.regex.Pattern;
 public class MainActivity extends AppCompatActivity {
     LinearLayout baseLayout; //메인 xml의 부모 레이아웃 id
     EditText dlgTime,dlgDate;
-    TextView txtResult;
+    TextView txtCurrentUser;
     Popup popup;
     FirebaseAuth firebaseAuth;
     FirebaseUser currentUser;
@@ -70,8 +70,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("Eagle Eleven");
 
-        firebaseAuth = FirebaseAuth.getInstance();
-        currentUser = firebaseAuth.getCurrentUser();
 
         /////////////////// list View 시작/////////////////////
         ListView list = findViewById(R.id.listView1);

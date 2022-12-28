@@ -25,11 +25,20 @@
             android:layout_gravity="center_vertical"
             />
 
+        <TextView
+            android:id="@+id/txtCurrentUser"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center_vertical"
+            />
+
+
         <ImageButton
             android:id="@+id/btnNotification"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginLeft="130dp"
+            android:layout_marginLeft="15dp"
             android:layout_gravity="center_vertical"
             android:src="@drawable/ic_baseline_history_24"
             android:scaleType="fitXY"
@@ -42,6 +51,7 @@
             android:layout_height="45dp"
             android:text="로그아웃"
             android:layout_marginLeft="5dp"
+            android:layout_marginRight="1dp"
             android:layout_gravity="center_vertical"
             android:src="@drawable/ic_baseline_power_settings_new_24"
             android:scaleType="fitXY"
